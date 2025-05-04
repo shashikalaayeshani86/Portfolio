@@ -1,22 +1,17 @@
-import { FaHandsHelping, FaPeopleArrows } from 'react-icons/fa'; // Volunteering-related icons
+import { FaHandsHelping, FaPeopleArrows, FaLaptopCode } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 
 const volunteeringExperiences = [
   {
-    title: "Wildlife Conservation Volunteer",
-    organization: "XYZ Wildlife Organization",
-    period: "June 2023 - Present",
-    description: "Assisting in data collection for wildlife conservation efforts, monitoring species populations, and helping with awareness campaigns.",
-    impact: "Contributed to the successful monitoring of endangered species and helped raise awareness about habitat preservation.",
-    icon: <FaHandsHelping />
+    title: "CoderDojo Volunteer Mentor",
+    organization: "STEMUp Educational Foundation",
+    period: "August 2023",
+    description: "Conducted an interactive coding session for school students during a CoderDojo meetup. Introduced basic programming concepts and helped students build simple projects.",
+    impact: "Inspired young learners to start their coding journey and promoted STEM education in rural communities.",
+    icon: <FaLaptopCode />
   },
-  {
-    title: "Community Development Volunteer",
-    organization: "ABC Community Foundation",
-    period: "January 2022 - May 2023",
-    description: "Working with the local community to organize educational workshops, improve community infrastructure, and provide support for disadvantaged groups.",
-    impact: "Organized workshops that benefited over 100 community members and helped build two new community centers.",
-    icon: <FaPeopleArrows />
-  }
+ 
+  
 ];
 
 export default function Volunteering() {
@@ -26,7 +21,19 @@ export default function Volunteering() {
         <h2 className="mb-12 text-3xl font-bold text-center text-blue-400">My Volunteering Experiences</h2>
         <div className="grid gap-10 sm:grid-cols-2">
           {volunteeringExperiences.map((volunteer, index) => (
-            <div key={index} className="p-6 border shadow-md rounded-xl bg-white/10 backdrop-blur-lg border-blue-400/20">
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                type: "spring",
+                stiffness: 100,
+                damping: 20,
+                delay: index * 0.2
+              }}
+              viewport={{ once: true }}
+              className="p-6 border shadow-md rounded-xl bg-white/10 backdrop-blur-lg border-blue-400/20"
+            >
               <div className="flex items-center mb-4 space-x-3">
                 {volunteer.icon}
                 <h3 className="text-xl font-semibold">{volunteer.title}</h3>
@@ -34,7 +41,7 @@ export default function Volunteering() {
               <p className="text-sm text-gray-300">{volunteer.organization} - {volunteer.period}</p>
               <p className="mt-3 text-gray-200">{volunteer.description}</p>
               <p className="mt-2 text-sm italic text-gray-400">{volunteer.impact}</p>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
