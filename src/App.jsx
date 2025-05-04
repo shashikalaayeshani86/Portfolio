@@ -9,6 +9,10 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import About from './components/About'
+import AcademicResults from './components/AcademicResults'
+import Experiences from './components/Experiences'
+import ImageGallery from './components/ImageGallery'
+import Volunteering from './components/Volunteering.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,7 +25,11 @@ function App() {
       <Navbar/>
       <Hero/>
       <About/>
+      <AcademicResults/>
+      <Experiences/>
+      <Volunteering/>
       <Projects/>
+      <ImageGallery/>
       <ContactForm/>
       <Footer/>
     </>

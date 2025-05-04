@@ -1,19 +1,40 @@
 import { motion } from "framer-motion";
 import project1 from "../assets/project1.png";
-import project2 from "../assets/project2.png"; // Add your own images
+import project2 from "../assets/project2.png"; 
+import project3 from "../assets/project3.png"; 
+import project4 from "../assets/project4.png"; 
+import project5 from "../assets/project5.png"; 
 
 const projects = [
   {
     title: "Portfolio Website",
-    description: "A modern personal portfolio using React and Tailwind CSS.",
+    description: "A modern personal portfolio using React and Tailwind CSS. Showcases my skills, projects, and experience.",
     image: project1,
-    link: "#"
+    link: "https://github.com/your-username/portfolio"  // Update with your real project link
   },
   {
     title: "E-commerce App",
-    description: "Full-stack e-commerce app with shopping cart and login.",
+    description: "A full-stack e-commerce app built with React, Tailwind CSS, and Spring Boot. Includes shopping cart and user authentication.",
     image: project2,
-    link: "#"
+    link: "https://github.com/your-username/e-commerce-app"  // Update with your real project link
+  },
+  {
+    title: "Event Management System for Job Board",
+    description: "A system to manage job fairs and recruitment events, including RSVP functionality and reminders.",
+    image: project3,
+    link: "https://github.com/your-username/event-management"  // Update with your real project link
+  },
+  {
+    title: "Maintenance Log System for Wildlife Habitat",
+    description: "Track and manage maintenance activities for wildlife habitats, integrating task assignment and progress tracking.",
+    image: project4,
+    link: "https://github.com/your-username/maintenance-log"  // Update with your real project link
+  },
+  {
+    title: "Enhanced Authentication & Authorization System",
+    description: "Implement OAuth2 and passwordless login for secure user access in web applications.",
+    image: project5,
+    link: "https://github.com/your-username/authentication-system"  // Update with your real project link
   }
 ];
 
