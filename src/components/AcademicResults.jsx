@@ -12,18 +12,14 @@ const academicResults = [
     {
       year: "2020",
       course: "G.C.E. Advanced Level Examination",
-      result: "Z-Score: 1.4356 | A in Mathematics, B in Physics, C in ICT"
+      result: "Z-Score: 1.4356 | A in Chemistry, B in Physics, B in Combined Maths"
     },
     {
       year: "2017",
       course: "G.C.E. Ordinary Level Examination",
       result: "Passed all subjects with distinction in Mathematics and Science"
     },
-    {
-      year: "Documents",
-      course: "Available Academic Records",
-      result: "Result Sheets and Transcripts available on request"
-    }
+   
   ];
   
   export default function AcademicResults() {

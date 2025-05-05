@@ -4,40 +4,61 @@ import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png"; 
 import project4 from "../assets/project4.png"; 
 import project5 from "../assets/project5.png"; 
+import project6 from "../assets/project6.png";
+import project7 from "../assets/project7.png";
+import project8 from "../assets/project8.png";
 
 const projects = [
-  {
-    title: "Portfolio Website",
-    description: "A modern personal portfolio using React and Tailwind CSS. Showcases my skills, projects, and experience.",
-    image: project1,
-    link: "https://github.com/your-username/portfolio"  // Update with your real project link
-  },
-  {
-    title: "E-commerce App",
-    description: "A full-stack e-commerce app built with React, Tailwind CSS, and Spring Boot. Includes shopping cart and user authentication.",
-    image: project2,
-    link: "https://github.com/your-username/e-commerce-app"  // Update with your real project link
-  },
-  {
-    title: "Event Management System for Job Board",
-    description: "A system to manage job fairs and recruitment events, including RSVP functionality and reminders.",
-    image: project3,
-    link: "https://github.com/your-username/event-management"  // Update with your real project link
-  },
-  {
-    title: "Maintenance Log System for Wildlife Habitat",
-    description: "Track and manage maintenance activities for wildlife habitats, integrating task assignment and progress tracking.",
-    image: project4,
-    link: "https://github.com/your-username/maintenance-log"  // Update with your real project link
-  },
-  {
-    title: "Enhanced Authentication & Authorization System",
-    description: "Implement OAuth2 and passwordless login for secure user access in web applications.",
-    image: project5,
-    link: "https://github.com/your-username/authentication-system"  // Update with your real project link
-  }
-];
-
+    {
+      title: "Mail Management System",
+      description: "A mail tracking system for universities using React, Spring Boot, and barcode integration for real-time mail monitoring.",
+      image: project1,
+      link: "https://github.com/your-username/mail-management-system"  // Update with your real repo link
+    },
+    {
+      title: "Job Board Platform (Frontend)",
+      description: "Frontend for a job board platform built with React and Tailwind CSS. Allows job seekers to browse listings and apply.",
+      image: project2,
+      link: "https://github.com/your-username/job-board-frontend"  // Update with your real repo link
+    },
+    {
+      title: "Wildlife Habitat Management System",
+      description: "A desktop app to manage environmental data, track wildlife activities, and generate conservation reports using Java and MySQL.",
+      image: project3,
+      link: "https://github.com/your-username/wildlife-habitat-system"  // Update with your real repo link
+    },
+    {
+      title: "Personal Portfolio Website",
+      description: "A modern personal portfolio built with React and Tailwind CSS showcasing skills, projects, and contact information.",
+      image: project4,
+      link: "https://github.com/your-username/portfolio"  // Update with your real repo link
+    },
+    {
+      title: "Quiz App",
+      description: "An interactive quiz application built using React to test knowledge in various categories with score tracking.",
+      image: project5,
+      link: "https://github.com/your-username/quiz-app"  // Update with your real repo link
+    },
+    {
+      title: "To-Do List App",
+      description: "A simple and clean to-do list application built with React to manage daily tasks effectively.",
+      image: project6,
+      link: "https://github.com/your-username/todo-app"  // Update with your real repo link
+    },
+    {
+      title: "Digital Clock",
+      description: "A live digital clock web app displaying the current time with sleek UI built using React and Tailwind.",
+      image: project7,
+      link: "https://github.com/your-username/digital-clock"  // Update with your real repo link
+    },
+    {
+      title: "News Site",
+      description: "A responsive news website that fetches and displays latest headlines using NewsAPI with React frontend.",
+      image: project8,
+      link: "https://github.com/your-username/news-site"  // Update with your real repo link
+    }
+  ];
+  
 export default function Projects() {
   return (
     <section id="projects" className="px-6 py-20 bg-gradient-to-br from-gray-900 to-black">
