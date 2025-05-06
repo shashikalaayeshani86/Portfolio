@@ -4,6 +4,10 @@ import bcsImage from "../assets/bcs.jpg";
 import coderjoImage from "../assets/coderjo.png";
 import cricketImage from "../assets/cricket.jpg";
 import fieldImage from "../assets/fieldvisit.jpg";
+import hackatonImage from "../assets/hackathon.jpg";
+import interviewImage from "../assets/interview.jpg";
+import csscImage from "../assets/cssc.jpg";
+import hanthanaImage from "../assets/hanthana.jpg";
 
 const images = [
   {
@@ -29,6 +33,26 @@ const images = [
   {
     title: "Field Visit",
     image: fieldImage,
+    link: "https://your-link-to-faculty-meet" // Replace with your actual link
+  },
+  {
+    title: "Interviews",
+    image: interviewImage,
+    link: "https://your-link-to-faculty-meet" // Replace with your actual link
+  },
+  {
+    title: "Hackathon",
+    image: hackatonImage,
+    link: "https://your-link-to-faculty-meet" // Replace with your actual link
+  },
+  {
+    title: "CSSC Meeting",
+    image: csscImage,
+    link: "https://your-link-to-faculty-meet" // Replace with your actual link
+  },
+  {
+    title: "Hanthana Visit",
+    image: hanthanaImage,
     link: "https://your-link-to-faculty-meet" // Replace with your actual link
   },
   // Add more images as needed

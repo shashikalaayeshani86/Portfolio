@@ -28,10 +28,20 @@ export default function Hero() {
         <motion.a
           href="#contact"
           whileHover={{ scale: 1.05 }}
-          className="inline-block px-6 py-3 font-semibold text-white transition bg-blue-500 rounded-full hover:bg-blue-600"
+          className="inline-block px-6 py-3 mx-5 font-semibold text-white transition bg-blue-500 rounded-full hover:bg-blue-600"
         >
           Contact Me
         </motion.a>
+
+        <motion.a
+          href="/ShashikalaAyeshani_SoftwareEngineerIntern.pdf"
+          download
+          whileHover={{ scale: 1.05 }}
+          className="inline-block px-6 py-3 font-semibold text-white transition bg-green-500 rounded-full hover:bg-green-600"
+        >
+          Download CV
+        </motion.a>
+
       </motion.div>
     </section>
   );

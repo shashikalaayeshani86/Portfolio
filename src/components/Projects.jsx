@@ -13,13 +13,13 @@ const projects = [
       title: "Mail Management System",
       description: "A mail tracking system for universities using React, Spring Boot, and barcode integration for real-time mail monitoring.",
       image: project1,
-      link: "https://github.com/your-username/mail-management-system"  // Update with your real repo link
+      link: "https://github.com/malinda-sampath/Barcode-Based-Mail-Tracking-System_Frontend.git"  // Update with your real repo link
     },
     {
       title: "Job Board Platform (Frontend)",
       description: "Frontend for a job board platform built with React and Tailwind CSS. Allows job seekers to browse listings and apply.",
       image: project2,
-      link: "https://github.com/your-username/job-board-frontend"  // Update with your real repo link
+      link: "https://github.com/shashikalaayeshani86/JobPortal.git"  // Update with your real repo link
     },
     {
       title: "Wildlife Habitat Management System",
@@ -31,31 +31,31 @@ const projects = [
       title: "Personal Portfolio Website",
       description: "A modern personal portfolio built with React and Tailwind CSS showcasing skills, projects, and contact information.",
       image: project4,
-      link: "https://github.com/your-username/portfolio"  // Update with your real repo link
+      link: "https://github.com/shashikalaayeshani86/Portfolio.git"  // Update with your real repo link
     },
     {
       title: "Quiz App",
       description: "An interactive quiz application built using React to test knowledge in various categories with score tracking.",
       image: project5,
-      link: "https://github.com/your-username/quiz-app"  // Update with your real repo link
+      link: "https://github.com/shashikalaayeshani86/QuizApp.git"  // Update with your real repo link
     },
     {
       title: "To-Do List App",
       description: "A simple and clean to-do list application built with React to manage daily tasks effectively.",
       image: project6,
-      link: "https://github.com/your-username/todo-app"  // Update with your real repo link
+      link: "https://github.com/shashikalaayeshani86/TodoList.git"  // Update with your real repo link
     },
     {
       title: "Digital Clock",
       description: "A live digital clock web app displaying the current time with sleek UI built using React and Tailwind.",
       image: project7,
-      link: "https://github.com/your-username/digital-clock"  // Update with your real repo link
+      link: "https://github.com/shashikalaayeshani86/DigitalClock.git"  // Update with your real repo link
     },
     {
       title: "News Site",
       description: "A responsive news website that fetches and displays latest headlines using NewsAPI with React frontend.",
       image: project8,
-      link: "https://github.com/your-username/news-site"  // Update with your real repo link
+      link: "https://github.com/shashikalaayeshani86/News-Mag_PracticeProject.git"  // Update with your real repo link
     }
   ];
   

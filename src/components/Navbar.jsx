@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { FaHome, FaInfoCircle, FaUniversity, FaProjectDiagram, FaImages, FaPhone, FaRegAddressBook, FaHandsHelping } from 'react-icons/fa';
+import { FaHome, FaInfoCircle, FaUniversity, FaProjectDiagram, FaImages, FaPhone, FaRegAddressBook, FaHandsHelping, FaCarBattery } from 'react-icons/fa';
+import Skills from './Skills';
 
 export default function Navbar() {
   return (
@@ -11,6 +12,7 @@ export default function Navbar() {
           <li><Link to="/about" className="flex items-center hover:text-yellow-300"><FaInfoCircle className="mr-2" />About</Link></li>
           <li><Link to="/academic-results" className="flex items-center hover:text-yellow-300"><FaUniversity className="mr-2" />Academic Results</Link></li>
           <li><Link to="/projects" className="flex items-center hover:text-yellow-300"><FaProjectDiagram className="mr-2" />Projects</Link></li>
+          <li><Link to="/skills" className="flex items-center hover:text-yellow-300"><FaCarBattery className="mr-2" />Skills</Link></li>
           <li><Link to="/image-gallery" className="flex items-center hover:text-yellow-300"><FaImages className="mr-2" />Gallery</Link></li>
           <li><Link to="/contact" className="flex items-center hover:text-yellow-300"><FaPhone className="mr-2" />Contact</Link></li>
           <li><Link to="/experiences" className="flex items-center hover:text-yellow-300"><FaRegAddressBook className="mr-2" />Experiences</Link></li>

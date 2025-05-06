@@ -13,6 +13,7 @@ import AcademicResults from './components/AcademicResults';
 import Experiences from './components/Experiences';
 import ImageGallery from './components/ImageGallery';
 import Volunteering from './components/Volunteering';
+import Skills from './components/Skills';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -33,6 +34,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/image-gallery" element={<ImageGallery />} />
         <Route path="/contact" element={<ContactForm />} />
+        <Route path="/skills" element={<Skills/>} />
       </Routes>
       <Footer />
     </Router>
