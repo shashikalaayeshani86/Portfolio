@@ -1,8 +1,11 @@
 {
   "name": "my-project",
   "private": true,
+  "homepage": "https://shashikalaayeshani86.github.io/Portfolio",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -r https://x-access-token:${GITHUB_TOKEN}@github.com/shashikalaayeshani86/Portfolio.git",
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "lint": "eslint .",
