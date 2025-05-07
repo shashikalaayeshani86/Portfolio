@@ -7,21 +7,26 @@ import {
   FaJava,
   FaGitAlt,
   FaGithub,
+  
 } from "react-icons/fa";
-import { SiSpringboot, SiMysql, SiMongodb, SiTailwindcss } from "react-icons/si";
+import { SiSpringboot, SiMysql, SiMongodb, SiTailwindcss, SiWebtrees, SiJunit5, SiDocker ,SiGithubactions, SiTypescript} from "react-icons/si";
 
 const skills = [
   { name: "HTML", icon: <FaHtml5 className="text-orange-500" /> },
   { name: "CSS", icon: <FaCss3Alt className="text-blue-500" /> },
   { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
+  { name: "TypeScript", icon: <SiTypescript className="text-blue-300" /> },
   { name: "React", icon: <FaReact className="text-cyan-400" /> },
   { name: "Java", icon: <FaJava className="text-red-500" /> },
   { name: "Spring Boot", icon: <SiSpringboot className="text-green-600" /> },
   { name: "MySQL", icon: <SiMysql className="text-blue-700" /> },
-  { name: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
+  {name: "Web Socket" , icon: <SiWebtrees className="text-indigo-300"/>},
   { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
   { name: "GitHub", icon: <FaGithub className="text-gray-300" /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" /> },
+  { name: "JUnit", icon: <SiJunit5 className="text-orange-500" /> },
+  { name: "Docker", icon: <SiDocker className="text-blue-500" /> },
+  { name: "Github Actions", icon: <SiGithubactions className="text-gray-100" /> },
 ];
 
 export default function Skills() {
