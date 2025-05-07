@@ -7,6 +7,7 @@ export default defineConfig({
   server: {
     host: '0.0.0.0', // Required to listen inside Docker
     port: 5173 ,      // Must match the internal port in docker
-    base: "/Portfolio/",
-  }
+    
+  },
+  base: '/Portfolio/',
 })
